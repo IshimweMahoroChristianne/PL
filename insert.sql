@@ -1,6 +1,6 @@
 -- Insert into Users
 INSERT INTO Users (username, email, password_hash) VALUES ('john_doe', 'john@example.com', 'hashed_pw');
-INSERT INTO Users (username, email, password_hash) VALUES ('jane_doe', 'jane@example.com', 'hashed_pw');
+INSERT INTO Users (username, email, password_hash) VALUES ('jane_doe', 'jane@example.com', 'washed_pw');
 
 -- Insert into Roles
 INSERT INTO Roles (role_name) VALUES ('Admin');
