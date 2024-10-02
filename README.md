@@ -271,5 +271,6 @@ BEGIN
     INSERT INTO Users (username, email, password_hash) VALUES ('mark_twain', 'mark@example.com', 'hashed_pw');
     ROLLBACK; -- This will undo the insertion
 END;
+
 conclusion:
 This README file serves as an overview of the System Management System and outlines the key SQL commands used, the relationships between tables, and examples of query execution
